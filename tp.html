@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Liste des TP - Révision TP</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="tp-list">
+  <div id="siteShell"></div>
+  <main class="page">
+    <section class="page-head">
+      <p class="eyebrow">TP fournis</p>
+      <h1>Liste des TP</h1>
+      <p>Chaque carte renvoie vers une fiche détaillée : objectif, montage, réglages, tests, erreurs possibles, modèle de compte rendu et checklist finale.</p>
+    </section>
+    <section class="toolbar">
+      <label class="search-field">
+        <span>Rechercher un TP</span>
+        <input id="tpSearch" type="search" placeholder="Ex. RLC, TNT, spectre...">
+      </label>
+      <label>
+        <span>Thème</span>
+        <select id="tpTheme"></select>
+      </label>
+      <label>
+        <span>Difficulté</span>
+        <select id="tpDifficulty"></select>
+      </label>
+    </section>
+    <section id="tpCards" class="tp-grid"></section>
+  </main>
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Révision Examen TP - BUT Réseaux & Télécommunications</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="home">
+  <div id="siteShell"></div>
+  <main class="page">
+    <section class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">Plateforme de révision express</p>
+        <h1>Révision Examen TP - BUT Réseaux & Télécommunications</h1>
+        <p class="hero-lead">Examen de 1h30 : une petite partie théorique, puis une grosse partie pratique sur un TP déjà fait, tiré au hasard. Le contenu est basé sur les comptes rendus fournis : analyse spectrale, transmission radio, échantillonnage, TNT, filtrage RLC et modulations.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="planning.html">Commencer la révision</a>
+          <a class="btn danger" href="examen.html">Mode examen blanc</a>
+          <a class="btn ghost" href="tp.html">Voir les TP</a>
+        </div>
+      </div>
+      <aside class="hero-panel">
+        <p class="eyebrow">Avancement local</p>
+        <h2>Progression</h2>
+        <div class="progress-ring" aria-label="Progression de révision">
+          <span id="homeProgressValue">0%</span>
+        </div>
+        <div class="progress-bar"><span id="homeProgressBar"></span></div>
+        <p id="homeProgressText" class="muted">Aucun TP marqué comme révisé pour l'instant.</p>
+      </aside>
+    </section>
+
+    <section class="section-grid two">
+      <div class="panel">
+        <div class="section-heading">
+          <p class="eyebrow">Priorité</p>
+          <h2>Révision urgente pour demain</h2>
+        </div>
+        <div id="urgentList" class="checklist"></div>
+      </div>
+      <div class="panel accent">
+        <div class="section-heading">
+          <p class="eyebrow">À connaître absolument</p>
+          <h2>Les réflexes qui font gagner du temps</h2>
+        </div>
+        <div id="mustKnowList" class="stack-list"></div>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-heading">
+        <p class="eyebrow">Accès rapide</p>
+        <h2>Réviser dans le bon ordre</h2>
+      </div>
+      <div class="section-grid three" id="homeQuickCards"></div>
+    </section>
+  </main>
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

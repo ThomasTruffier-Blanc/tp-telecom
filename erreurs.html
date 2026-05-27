@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Erreurs fréquentes - Révision TP</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="erreurs">
+  <div id="siteShell"></div>
+  <main class="page">
+    <section class="page-head">
+      <p class="eyebrow">Dépannage</p>
+      <h1>Erreurs fréquentes</h1>
+      <p>Symptôme, cause probable, vérification et correction. À relire juste avant l'examen pour éviter les pertes de temps bêtes.</p>
+    </section>
+    <section class="toolbar">
+      <label class="search-field">
+        <span>Rechercher une erreur</span>
+        <input id="errorSearch" type="search" placeholder="Ex. RBW, ping, masse, DHCP...">
+      </label>
+      <label>
+        <span>Famille</span>
+        <select id="errorGroup"></select>
+      </label>
+    </section>
+    <section id="errorList" class="accordion-list"></section>
+  </main>
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

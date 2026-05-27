@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Comptes rendus - Révision TP</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="reports">
+  <div id="siteShell"></div>
+  <main class="page">
+    <section class="page-head">
+      <p class="eyebrow">Rédaction</p>
+      <h1>Comptes rendus</h1>
+      <p>Modèle général, modèles par TP et accès direct aux PDF/XLSX/CSV copiés dans le site.</p>
+    </section>
+    <section class="section-grid two">
+      <div class="panel">
+        <div class="section-heading">
+          <p class="eyebrow">Structure type</p>
+          <h2>Plan à réutiliser</h2>
+        </div>
+        <div id="reportTemplate" class="report-template"></div>
+      </div>
+      <div class="panel accent">
+        <div class="section-heading">
+          <p class="eyebrow">Liens locaux</p>
+          <h2>Documents fournis</h2>
+        </div>
+        <div id="sourceDocs" class="stack-list"></div>
+      </div>
+    </section>
+    <section>
+      <div class="section-heading">
+        <p class="eyebrow">Par TP</p>
+        <h2>Modèles complets à adapter</h2>
+      </div>
+      <div id="tpReports" class="report-grid"></div>
+    </section>
+  </main>
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

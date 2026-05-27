@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Photos et captures - Révision TP</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="gallery">
+  <div id="siteShell"></div>
+  <main class="page">
+    <section class="page-head">
+      <p class="eyebrow">Galerie</p>
+      <h1>Photos et captures</h1>
+      <p>Images extraites des comptes rendus quand c'était possible, plus placeholders prêts à remplacer dans <code>assets/images/</code>.</p>
+    </section>
+    <section class="toolbar">
+      <label class="search-field">
+        <span>Rechercher</span>
+        <input id="gallerySearch" type="search" placeholder="Ex. oscilloscope, TNT, RLC...">
+      </label>
+      <label>
+        <span>TP associé</span>
+        <select id="galleryTp"></select>
+      </label>
+    </section>
+    <section id="galleryGrid" class="gallery-grid"></section>
+  </main>
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

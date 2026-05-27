@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mode examen blanc - Révision TP</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="examen">
+  <div id="siteShell"></div>
+  <main class="page">
+    <section class="page-head exam-head">
+      <div>
+        <p class="eyebrow">Simulation 1h30</p>
+        <h1>Mode examen blanc</h1>
+        <p>Tirage aléatoire d'un TP, questions théoriques, consignes pratiques, checklist, notes et correction.</p>
+      </div>
+      <div class="timer-card">
+        <span>Temps restant</span>
+        <strong id="examTimer">90:00</strong>
+      </div>
+    </section>
+    <section class="exam-controls">
+      <button class="btn primary" id="startExam">Démarrer</button>
+      <button class="btn ghost" id="drawTp">Tirer un autre TP</button>
+      <button class="btn danger" id="resetExam">Réinitialiser</button>
+    </section>
+    <div class="progress-bar large"><span id="examProgress"></span></div>
+    <section id="examContent" class="exam-grid"></section>
+  </main>
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/examen.js"></script>
+</body>
+</html>

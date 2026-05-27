@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Quiz théorique - Révision TP</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="quiz">
+  <div id="siteShell"></div>
+  <main class="page">
+    <section class="page-head">
+      <p class="eyebrow">Entraînement</p>
+      <h1>Quiz théorique et pratique</h1>
+      <p>Questions rapides sur les notions de signal, les réglages d'appareils, les erreurs de TP et quelques bases réseau BUT RT.</p>
+    </section>
+    <section class="quiz-layout">
+      <div class="panel">
+        <div class="quiz-status">
+          <span id="quizCount"></span>
+          <span id="bestScoreBadge" class="badge neutral"></span>
+        </div>
+        <div id="quizContainer"></div>
+        <div class="button-row">
+          <button class="btn primary" id="submitQuiz">Valider le quiz</button>
+          <button class="btn ghost" id="resetQuiz">Recommencer</button>
+        </div>
+      </div>
+      <aside class="panel accent">
+        <h2>Objectif</h2>
+        <p>Vise au moins 80 %. Si tu rates une question, lis la correction puis retourne à la fiche de cours correspondante.</p>
+        <div id="quizResult" class="result-box"></div>
+      </aside>
+    </section>
+  </main>
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/quiz.js"></script>
+</body>
+</html>
